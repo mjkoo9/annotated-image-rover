@@ -95,6 +95,33 @@ img {
     content: "\f00d";
 }
 
+.dot.orange {
+  background-color: rgba(255, 133, 25, 0.65);
+}
+
+.dot.blue {
+  background-color: rgba(0, 93, 255, 0.65);
+}
+
+.dot.green {
+  background-color: rgba(12, 232, 196, 0.65);
+}
+
+.dot.solar {
+  right: 10%;
+  bottom: 46%;
+}
+
+.dot.camera {
+  top: 18%;
+  left: 37%;
+}
+
+.dot.wheels {
+  bottom: 19%;
+  right: 25%;
+}
+
 /*****************************
 * Dot customizations go here
 ******************************/
@@ -107,11 +134,15 @@ img {
     border-radius: 0;
     border: 0;
     z-index: 2;
+    left: 0;
+    top: 0;
 }
 
 .dot.active .inner {
     opacity: 1;
 }
+
+
 
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
